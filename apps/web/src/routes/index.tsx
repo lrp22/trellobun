@@ -1,5 +1,4 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Header } from "@/components/header";
 import { Hero } from "@/components/page/hero";
 import { Features } from "@/components/page/features";
 import { Stats } from "@/components/page/stats";
@@ -13,8 +12,8 @@ export const Route = createFileRoute("/")({
 
 function HomeComponent() {
   return (
-    <div className="container mx-auto max-w-3xl px-4 py-2">
-      <main>
+    <div className="flex flex-col min-h-svh items-center">
+      <main className="flex-1 flex flex-col">
         <Hero />
         <Stats />
         <Features />

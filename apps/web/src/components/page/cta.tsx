@@ -22,7 +22,7 @@ export function CTA() {
                 className="w-full sm:w-auto"
                 asChild
               >
-                <Link to="/signup">
+                <Link to="/login">
                   Start for free
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
@@ -33,7 +33,8 @@ export function CTA() {
                 className="w-full sm:w-auto bg-transparent text-primary-foreground border-primary-foreground/20 hover:bg-primary-foreground/10"
                 asChild
               >
-                <Link to="#demo">Watch demo</Link>
+                {/* use plain <a> for in-page anchor */}
+                <a href="#demo">Watch demo</a>
               </Button>
             </div>
           </div>

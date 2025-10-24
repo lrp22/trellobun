@@ -17,7 +17,7 @@ export function Hero() {
           </p>
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button size="lg" className="w-full sm:w-auto" asChild>
-              <Link to="/signup">
+              <Link to="/login">
                 Get started free
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
@@ -28,7 +28,8 @@ export function Hero() {
               className="w-full sm:w-auto bg-transparent"
               asChild
             >
-              <Link to="#demo">Watch demo</Link>
+              {/* fixed: use <a> for anchors */}
+              <a href="#demo">Watch demo</a>
             </Button>
           </div>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-muted-foreground">

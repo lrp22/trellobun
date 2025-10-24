@@ -18,28 +18,30 @@ export function Footer() {
               achieve amazing things.
             </p>
           </div>
+
           <div>
             <h3 className="font-semibold">Product</h3>
             <ul className="mt-4 space-y-3 text-sm">
+              {/* anchors changed to <a> */}
               <li>
-                <Link
-                  to="#features"
+                <a
+                  href="#features"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
                   Features
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
-                  to="#pricing"
+                <a
+                  href="#pricing"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
                   Pricing
-                </Link>
+                </a>
               </li>
               <li>
                 <Link
-                  to="/integrations"
+                  to="/"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
                   Integrations
@@ -47,7 +49,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  to="/templates"
+                  to="/"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
                   Templates
@@ -55,12 +57,13 @@ export function Footer() {
               </li>
             </ul>
           </div>
+
           <div>
             <h3 className="font-semibold">Company</h3>
             <ul className="mt-4 space-y-3 text-sm">
               <li>
                 <Link
-                  to="/about"
+                  to="/"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
                   About
@@ -68,7 +71,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  to="/blog"
+                  to="/"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
                   Blog
@@ -76,7 +79,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  to="/careers"
+                  to="/"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
                   Careers
@@ -84,7 +87,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  to="/contact"
+                  to="/"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
                   Contact
@@ -92,12 +95,13 @@ export function Footer() {
               </li>
             </ul>
           </div>
+
           <div>
             <h3 className="font-semibold">Resources</h3>
             <ul className="mt-4 space-y-3 text-sm">
               <li>
                 <Link
-                  to="/help"
+                  to="/"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
                   Help Center
@@ -105,7 +109,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  to="/docs"
+                  to="/"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
                   Documentation
@@ -113,7 +117,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  to="/community"
+                  to="/"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
                   Community
@@ -121,7 +125,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  to="/api"
+                  to="/"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
                   API
@@ -130,6 +134,7 @@ export function Footer() {
             </ul>
           </div>
         </div>
+
         <div className="mt-12 border-t pt-8 text-center text-sm text-muted-foreground">
           <p>
             &copy; {new Date().getFullYear()} FlowBoard. All rights reserved.
