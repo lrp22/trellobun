@@ -5,7 +5,7 @@ import { Link } from "@tanstack/react-router";
 export function Hero() {
   return (
     <section className="relative overflow-hidden py-20 sm:py-32">
-      <div className="container">
+      <div className="container mx-auto px-4">
         <div className="mx-auto max-w-4xl text-center">
           <h1 className="text-balance text-5xl font-bold tracking-tight sm:text-7xl">
             Organize your work,{" "}

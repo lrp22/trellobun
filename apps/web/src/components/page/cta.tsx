@@ -5,7 +5,7 @@ import { Link } from "@tanstack/react-router";
 export function CTA() {
   return (
     <section className="py-20 sm:py-32">
-      <div className="container">
+      <div className="container mx-auto px-4">
         <div className="relative overflow-hidden rounded-3xl bg-primary px-8 py-16 sm:px-16 sm:py-24">
           <div className="relative z-10 mx-auto max-w-2xl text-center">
             <h2 className="text-balance text-3xl font-bold tracking-tight text-primary-foreground sm:text-5xl">

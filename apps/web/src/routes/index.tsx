@@ -12,8 +12,8 @@ export const Route = createFileRoute("/")({
 
 function HomeComponent() {
   return (
-    <div className="flex flex-col min-h-svh items-center">
-      <main className="flex-1 flex flex-col">
+    <div>
+      <main>
         <Hero />
         <Stats />
         <Features />

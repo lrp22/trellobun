@@ -59,7 +59,7 @@ export function Pricing() {
 
   return (
     <section id="pricing" className="py-20 sm:py-32 bg-muted/30">
-      <div className="container">
+      <div className="container mx-auto px-4">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-balance text-3xl font-bold tracking-tight sm:text-5xl">
             Simple, transparent pricing

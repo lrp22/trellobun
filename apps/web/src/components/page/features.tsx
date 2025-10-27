@@ -48,7 +48,7 @@ export function Features() {
 
   return (
     <section id="features" className="py-20 sm:py-32">
-      <div className="container">
+      <div className="container mx-auto px-4">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-balance text-3xl font-bold tracking-tight sm:text-5xl">
             Everything you need to stay organized

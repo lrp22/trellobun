@@ -37,6 +37,7 @@
     "db:down": "turbo -F @trellobun/db db:down"
   },
   "dependencies": {
+    "@paralleldrive/cuid2": "^3.1.0",
     "dotenv": "^17.2.2",
     "zod": "^4.1.11"
   },

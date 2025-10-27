@@ -1,5 +1,5 @@
 import { protectedProcedure, publicProcedure, router } from "../index";
-import { todoRouter } from "./todo";
+import { boardRouter } from "./board";
 
 export const appRouter = router({
 	healthCheck: publicProcedure.query(() => {
@@ -11,6 +11,6 @@ export const appRouter = router({
 			user: ctx.session.user,
 		};
 	}),
-	todo: todoRouter,
+	board: boardRouter,
 });
 export type AppRouter = typeof appRouter;
