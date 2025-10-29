@@ -2,7 +2,11 @@ import { LightbulbIcon, PlusIcon, SparklesIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
-export const Banner = () => {
+interface BannerProps {
+  onCreateClick: () => void;
+}
+
+export const Banner = ({ onCreateClick }: BannerProps) => {
   return (
     <div className="flex h-full items-center justify-center w-full">
       <Card className="bg-gradient-to-br border-2 border-dashed border-gray-300 dark:border-gray-800 dark:to-gray-900 from-blue-50 max-w-2xl px-10 shadow-lg to-indigo-50">
@@ -22,6 +26,7 @@ export const Banner = () => {
           </p>
           <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">
             <Button
+              onClick={onCreateClick}
               className="bg-blue-600 duration-200 hover:scale-105 shadow-lg text-white transform transition-all"
               size="lg"
             >
